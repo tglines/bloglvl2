@@ -1,0 +1,22 @@
+div.sidebar
+  div.section blog topics
+  div
+    a(href='/') All
+  -for(var topic in topics)
+    -if(topic!='Site')
+      div
+        a(href='/topic/'+topic)=topic
+
+  div.section Pages
+  div
+    a(href='/posts/bookmarks') Bookmarks
+
+  div.section About
+  div
+    a(href='/posts/about') About
+
+  div.section Admin
+  div
+    a(href='/admin/post') New Post
+  div
+    a(href='/admin/edit_posts') Edit Posts

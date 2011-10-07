@@ -1,0 +1,206 @@
+*
+  margin 0
+  padding 0
+
+body
+  font-family HelveticaNeue, Helvetica, Arial, sans-serif
+  background-image url('/img/main_bg.png')
+
+div.center
+  width 1000px
+  margin-left auto
+  margin-right auto
+
+#camera
+  -webkit-perspective 0
+  -webkit-perspective-origin 0px 0px
+
+#cube
+  position relative
+  margin-left auto
+  margin-right auto
+  margin-top 40px
+  margin-bottom 0
+  width 1000px
+  -webkit-transition -webkit-transform .5s linear
+  -webkit-transform-style preserve-3d
+
+.face
+  border-radius 5px
+  position absolute
+  color black
+  //background-color rgba(256,256,256,.5)
+  box-shadow 0px 0px 15px #000
+  -moz-box-shadow 0px 0px 15px #000
+  -webkit-box-shadow 0px 0px 15px #000
+
+#cube .one
+  -webkit-transform translateZ(500px)
+
+#cube .two
+  -webkit-transform rotateY(180deg) translateZ(500px)
+
+div.header
+  background-color black
+
+h2
+  margin-top 5px
+  font-size 28px
+  line-height 36px
+  margin-bottom 15px
+  font-weight bold
+  color #313131
+
+h3
+  font-size 20px
+  margin-top 25px
+  margin-bottom 12px
+  font-weight bold
+  color #313131
+
+div.post_title
+  margin-bottom 18px
+
+div.post_title a
+  font-size 20px
+  line-height 30px
+  font-weight bold
+  color #313131
+  text-decoration none
+
+div.post_title a:hover
+  text-decoration underline
+
+div.post_title_small
+  margin-bottom 4px
+
+div.post_title_small a
+  font-size 18px
+  font-weight bold
+  color #313131
+  text-decoration none
+  margin-right 10px
+
+div.post_title_small a:hover
+  text-decoration underline
+
+div.post_title_small a.edit
+  color #666666
+
+
+div.main
+  background-image url('/img/bg.png')
+  background-repeat repeat-y
+  height 100%
+
+div.sidebar
+  float left
+  width 180px
+  color #FFFFFF
+
+a
+  text-decoration none  
+a:hover
+  text-decoration underline
+a.external
+  color #11AADD
+
+div.sidebar a
+  font-size 14px
+  text-decoration none  
+  margin-left 30px
+  color #FFFFFF
+
+div.sidebar div.section
+  margin-top:15px;
+  text-transform uppercase
+  font-size 14px
+  font-weight bold
+  margin-left 20px
+  color #11AADD
+
+div.sidebar a:hover
+  text-decoration underline
+
+div.content
+  min-height 300px
+  margin-left 200px
+  width 760px
+  padding 20px
+
+p
+  font-size 13px
+  line-height 18px
+  margin-bottom 20px
+
+input[type="text"], textarea
+  -webkit-transition border linear 0.2s, box-shadow linear 0.2s
+  -moz-transition border linear 0.2s, box-shadow linear 0.2s
+  -ms-transition border linear 0.2s, box-shadow linear 0.2s
+  -o-transition border linear 0.2s, box-shadow linear 0.2s
+  transition border linear 0.2s, box-shadow linear 0.2s
+  -webkit-box-shadow inset - 1px 3px rgba(0,0,0, 0.1)
+  -moz-box-shadow inset - 1px 3px rgba(0,0,0, 0.1)
+  box-shadow inset - 1px 3px rgba(0,0,0, 0.1)
+  display block
+  height 18px
+  padding 4px
+  font-size 12px
+  line-height 18px
+  color #808080
+  border 1px solid #CCC
+  -webkit-border-radius 3px
+  -moz-border-radius 3px
+  border-radius 3px
+  margin-top 5px
+  margin-bottom 10px
+
+input[type="text"]
+  width 400px
+
+textarea
+  width 700px
+  height 300px
+
+input[type="submit"]
+  border-radius 5px
+  border 1px solid #999999
+  background-color #ECECEC
+  color #666666
+  padding 10px 20px
+
+span.quote
+  color #11AADD
+span.string1
+  color #5BDE07
+  margin-left 3px
+  margin-right 3px
+span.string2
+  color #5BDE07
+  margin-left 3px
+  margin-right 3px
+  
+span.syntax
+  color #11AADD
+  margin-left 5px
+  margin-right 5px
+
+h1
+  border-radius: 5px
+  background-color #272727
+  display inline-block
+  padding 5px
+  margin-top 20px
+  text-shadow 2px 2px 2px black
+  box-shadow 0px 0px 15px #000
+  -moz-box-shadow 0px 0px 15px #000
+  -webkit-box-shadow 0px 0px 15px #000
+
+h1 a:hover
+  text-decoration none
+
+ul li
+  margin-left 20px
+  margin-bottom:5px;
+  margin-top:5px;
+  font-size:14px;

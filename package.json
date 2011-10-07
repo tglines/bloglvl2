@@ -1,0 +1,14 @@
+{
+  "name": "blog-lvl-2",
+  "version":"2.0.1",
+  "description": "The blog leveled up...",
+  "author": "Travis Glines <trglin88@gmail.com>",
+  "dependencies": {
+    "express": ">= 0.0.1",
+    "coffee-script": ">= 0.0.1",
+    "jade": ">= 0.0.1",
+    "socket.io": ">= 0.0.1",
+    "stylus": ">= 0.0.1"
+  },
+  "engine": "node >= 0.4.12"
+}

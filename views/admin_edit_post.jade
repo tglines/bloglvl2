@@ -1,0 +1,22 @@
+h2 Edit Post
+form(action='/admin/edit_post'+post.url,method='post')
+  div Title
+  div
+    input(type='text',name='post_title', value=post.title)
+  div URL
+  div
+    input(type='text',name='post_url', value=post.url)
+  div Topic
+  div
+    input(type='text',name='post_topic', value=post.topic)
+  div Author Name
+  div
+    input(type='text',name='post_author_name', value=post.author_name)
+  div Author Image
+  div
+    input(type='text',name='post_author_image', value=post.author_image)
+  div Content (jade)
+  div
+    textarea(name='post_content')=post.content
+  div
+    input(type='submit')

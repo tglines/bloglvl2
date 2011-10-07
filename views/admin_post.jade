@@ -1,0 +1,22 @@
+h2 New Post
+form(action='/admin/post',method='post')
+  div Title
+  div
+    input(type='text',name='post_title')
+  div URL
+  div
+    input(type='text',name='post_url')
+  div Topic
+  div
+    input(type='text',name='post_topic')
+  div Author Name
+  div
+    input(type='text',name='post_author_name')
+  div Author Image
+  div
+    input(type='text',name='post_author_image')
+  div Content (jade)
+  div
+    textarea(name='post_content')
+  div
+    input(type='submit')

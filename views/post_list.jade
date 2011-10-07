@@ -1,0 +1,6 @@
+h2 Blog Posts
+div.post_list
+  -for(var post in posts)
+    -if(posts[post].topic!='Site')  
+      div.post_title
+        a(href=post)=posts[post].title

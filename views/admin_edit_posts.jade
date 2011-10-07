@@ -1,0 +1,6 @@
+div.post_list
+  -for(var post in posts)
+    div.post_title_small
+      a(href=post)=posts[post].title
+      a.edit(href='/admin/edit_post'+post) edit
+      a.edit.ignore_history(href='/admin/delete_post'+post) delete
